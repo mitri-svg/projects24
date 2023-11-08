@@ -1,0 +1,76 @@
+html,body{
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: lime;
+    font-size: 1.28em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: lime;
+    font-size: 1.28em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img{
+    height: 250px;
+    margin: 35px;
+    width: 190px;
+    border: 2px solid black;
+    background-size: cover;
+}
+main{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.img1{
+    background-image: url(img1.jpeg);
+}
+.img2{
+    background-image: url(img2.jpeg);
+}
+.item1{grid-area: item1; background-image: url(img1img.jpeg);}
+.item2{grid-area: item2; background-image: url(img2img.jpeg);}
+.item3{grid-area: item3; background-image: url(img3img.jpeg);}
+.item4{grid-area: item4; background-image: url(img4img.jpeg);}
+.item5{grid-area: item5; background-image: url(img5img.jpeg);}
+.item6{grid-area: item6; background-image: url(img6img.jpeg);}
+.grid-container{
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+     'item1 item1 item2 item3'
+     'item4 item5 item6 item3';
+    height: 500px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+.item{
+    border: 2px solid;
+    margin: 10px;
+    background-size: cover;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.42em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
